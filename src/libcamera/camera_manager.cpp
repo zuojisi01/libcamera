@@ -297,7 +297,7 @@ CameraManager::~CameraManager()
 int CameraManager::start()
 {
 	LOG(Camera, Info) << "libcamera " << version_;
-
+	LOG(Camera, Info) << "zuojisi build for sg2-imx390c-5200-gmsl2";
 	int ret = _d()->start();
 	if (ret)
 		LOG(Camera, Error) << "Failed to start camera manager: "
