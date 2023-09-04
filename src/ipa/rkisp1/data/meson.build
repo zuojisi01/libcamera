@@ -5,6 +5,7 @@ conf_files = files([
     'ov4689.yaml',
     'ov5640.yaml',
     'uncalibrated.yaml',
+    'imx390.yaml',
 ])
 
 install_data(conf_files,
